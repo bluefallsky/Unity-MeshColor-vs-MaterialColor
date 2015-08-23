@@ -4,16 +4,16 @@ using System.Collections;
 public class MaterialColoring : LoopSampleColor
 {
 	[SerializeField]
-	Renderer renderer;
+	Renderer meshRenderer;
 
 	Material material;
 
 	void Awake()
 	{
-		material = renderer.material;
+		material = meshRenderer.material;
 	}
-
-	void Update()
+	
+	protected override void Update()
 	{
 		base.Update();
 

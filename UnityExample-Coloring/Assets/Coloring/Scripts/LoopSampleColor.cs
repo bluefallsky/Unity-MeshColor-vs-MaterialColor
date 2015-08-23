@@ -20,7 +20,7 @@ public class LoopSampleColor : MonoBehaviour
 	}
 
 	#region Update Animation time
-	protected void Update()
+	protected virtual void Update()
 	{
 		if( curTime < duration )
 		{
