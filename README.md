@@ -1,6 +1,6 @@
 # Unity-MeshColor-vs-MaterialColor
 - material coloring vs mesh coloring
-- 200 unit profile test
+- 200 objects profile vs test
 - edit in unity3d 5.1.2f1
  
 ---
